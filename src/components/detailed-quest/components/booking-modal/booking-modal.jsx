@@ -1,7 +1,6 @@
 import * as S from './booking-modal.styled';
 import { ReactComponent as IconClose } from 'assets/img/icon-close.svg';
 import { useState } from 'react';
-import { sendData } from 'functions/api/api';
 import { SERVER_URL } from 'functions/consts/consts';
 
 const BookingModal = ({ onCloseClick }) => {
